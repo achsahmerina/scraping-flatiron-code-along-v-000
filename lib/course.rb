@@ -4,9 +4,7 @@ class Course
 
   def initialize
     @@all << self
-    @title = title
-    @schedule = schedule
-    @description = description
+  
   end
 
   def self.all
